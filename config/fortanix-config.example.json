@@ -1,0 +1,65 @@
+{
+  "fortanix": {
+    "baseUrl": "https://apps.smartkey.io",
+    "users": {
+      "admin": {
+        "apiKey": "YOUR_ADMIN_API_KEY_HERE",
+        "permissions": ["tokenize", "detokenize"]
+      },
+      "editor": {
+        "apiKey": "YOUR_EDITOR_API_KEY_HERE",
+        "permissions": ["tokenize"]
+      },
+      "viewer": {
+        "apiKey": "YOUR_VIEWER_API_KEY_HERE",
+        "permissions": []
+      }
+    },
+    "keyMappings": {
+      "name": {
+        "keyId": "YOUR_NAME_KEY_ID",
+        "tokenize": ["admin", "editor"],
+        "detokenize": ["admin"]
+      },
+      "phone": {
+        "keyId": "YOUR_PHONE_KEY_ID",
+        "tokenize": ["admin", "editor"],
+        "detokenize": ["admin"]
+      },
+      "email": {
+        "keyId": "YOUR_EMAIL_KEY_ID",
+        "tokenize": ["admin", "editor"],
+        "detokenize": ["admin"]
+      },
+      "ssn": {
+        "keyId": "YOUR_SSN_KEY_ID",
+        "tokenize": ["admin", "editor"],
+        "detokenize": ["admin", "editor"]
+      },
+      "passportNumber": {
+        "keyId": "YOUR_PASSPORT_KEY_ID",
+        "tokenize": ["admin", "editor"],
+        "detokenize": ["admin"]
+      }
+    }
+  },
+  "app": {
+    "users": {
+      "admin": {
+        "username": "admin",
+        "password": "admin123",
+        "role": "admin"
+      },
+      "editor": {
+        "username": "editor",
+        "password": "editor123",
+        "role": "editor"
+      },
+      "viewer": {
+        "username": "viewer",
+        "password": "viewer123",
+        "role": "viewer"
+      }
+    }
+  }
+}

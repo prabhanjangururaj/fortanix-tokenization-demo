@@ -1,0 +1,138 @@
+.records-list-container {
+  width: 100%;
+}
+
+.records-count {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+.records-count strong {
+  color: #667eea;
+  font-size: 1.3rem;
+}
+
+.table-container {
+  overflow-x: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.records-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.records-table thead {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.records-table th {
+  padding: 15px 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.records-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e1e8ed;
+  font-size: 0.9rem;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.records-table tbody tr {
+  transition: background-color 0.2s;
+}
+
+.records-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+/* Value display styles */
+.plain-value {
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.tokenized-value {
+  color: #7f8c8d;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  background: #f8f9fa;
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tokenized-indicator {
+  font-size: 1rem;
+  flex-shrink: 0;
+}
+
+.service-badge {
+  background: #3498db;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.delete-button {
+  padding: 6px 14px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+.delete-button:hover {
+  background: #c0392b;
+}
+
+/* Legend */
+.legend {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e1e8ed;
+}
+
+.legend h4 {
+  color: #2c3e50;
+  margin-bottom: 12px;
+}
+
+.legend-item {
+  margin: 8px 0;
+  font-size: 0.95rem;
+}
+
+.legend-note {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #e1e8ed;
+  color: #667eea;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
