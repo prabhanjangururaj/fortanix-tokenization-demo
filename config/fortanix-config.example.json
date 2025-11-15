@@ -1,6 +1,6 @@
 {
   "fortanix": {
-    "baseUrl": "https://apps.smartkey.io",
+    "baseUrl": "https://amer.smartkey.io",
     "users": {
       "admin": {
         "apiKey": "YOUR_ADMIN_API_KEY_HERE",
