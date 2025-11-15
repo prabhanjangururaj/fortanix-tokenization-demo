@@ -273,3 +273,26 @@ This application demonstrates several advanced data security concepts:
    - Role-specific API keys and sessions
    - Retry logic for resilience
 
+
+## App permission screenshots from my account
+
+<img width="1546" height="870" alt="image" src="https://github.com/user-attachments/assets/aa711a7c-529e-4264-af6b-948619254e9b" />
+<img width="1546" height="870" alt="image" src="https://github.com/user-attachments/assets/3706ccd8-8a23-4403-9d7e-ae4d6314bc9e" />
+<img width="1546" height="870" alt="image" src="https://github.com/user-attachments/assets/4a64fc84-d48a-4e34-bc95-d8596c768670" />
+
+## DSM FPE keys screenshots from my account
+
+<img width="2348" height="1152" alt="image" src="https://github.com/user-attachments/assets/5de4d849-81cb-4dc3-a879-fdeee03d6564" />
+<img width="1222" height="1246" alt="image" src="https://github.com/user-attachments/assets/df1d79ae-a2df-44b8-80bc-23d02a09cfee" />
+<img width="1204" height="1440" alt="image" src="https://github.com/user-attachments/assets/93597b2f-365a-405a-8b3e-0fd383900a65" />
+<img width="1204" height="1258" alt="image" src="https://github.com/user-attachments/assets/b754d6d2-543c-41a3-9729-a38f0ac1e341" />
+<img width="1204" height="984" alt="image" src="https://github.com/user-attachments/assets/cc46864c-57a9-4f84-be8d-841ba46019ba" />
+<img width="1204" height="1130" alt="image" src="https://github.com/user-attachments/assets/862a23ad-9abd-4ca4-b32e-895b350e3bbc" />
+
+
+
+
+
+
+
+
